@@ -18,7 +18,7 @@ def parser():
     firstrow = "Glukosuppgifter,Skapat den,,Skapat av,\n"
     secondrow = "Enhet,Serienummer,Enhetens tidsstämpel,Registertyp,Historiskt glukosvärde mmol/L,Skanna glukosvärde mmol/L,Icke-numeriskt snabbverkande insulin,Snabbverkande insulin (enheter),Icke-numerisk mat,Kolhydrater (gram),Kolhydrater (portioner),Icke-numeriskt långtidsverkande insulin,Långtidsverkande insulin (enheter),Anteckningar,Glukossticka mmol/L,Keton mmol/L,Måltidsinsulin (enheter),Korrigeringsinsulin (enheter),Användarändrat insulin (enheter)\n"
 
-    serial_str = "5828D090-51AF-4EFB-A47F-9CC06259EA49"
+    serial_str = "SOME_SERIAL_NUMBER"
     outfile.write(firstrow)
     outfile.write(secondrow)
     for i in range(len(dates)):
